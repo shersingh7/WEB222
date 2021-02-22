@@ -1,0 +1,19 @@
+*
+{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+div
+{
+    width:150px;
+    height: 150px;
+    background-color: red;
+}
+
+
+.div-xl
+{
+    width:calc(150px * 2);
+    height:calc(150px * 2);
+}

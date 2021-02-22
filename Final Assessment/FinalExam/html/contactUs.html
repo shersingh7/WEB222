@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+
+<html>
+
+    <head>
+        <meta charset="utf-8"> 
+        <link rel="stylesheet" href="../css/style.css">
+    </head>
+
+    <body>
+        <header>        
+
+            <div class="logo">
+                    <a href="../index.html">
+                        <img alt="cineplex" src="../images/cineplex.jpg" height="50">
+                    </a>
+            </div>
+            
+        <div>
+            <a href="" class="white">WHAT'S ON</a>
+            <a href="" class="white">THEATRES</a>
+            <a href="" class="white">EXPERIENCES</a>
+            <a href="" class="white">FOOD & DRINK</a>
+            <a href="" class="white">RENT/BUY</a>
+            <a href="" class="white">PARTIES & GROUPS</a>
+            <a href="" class="white">GIFT CARDS</a>
+            <a href="contactUs.html" class="white">CONTACT US</a>
+            <input style="text-align: right;margin-right: 15px; float: right;" placeholder="Search">
+        </div>
+
+
+        </header>
+
+        <main>
+
+            <h3>Contact Form</h3>
+
+            <section class="container">
+                
+                <form action="https://httpbin.org/post" method="POST">
+
+                    <div class="contactUs">
+
+                        <label for="name">Name:</label><br>
+                        <input type="text" id="name" name="name" value="">
+
+                        <div class="showError"></div>
+
+                    </div>
+
+                    <br>
+                    
+                    <div class="contactUs">  
+
+                        <label for="email">Email:</label><br>
+                        <input type="text" id="email" name="email" value="">
+
+                        <div class="showError"></div>  
+
+                    </div>   
+                   
+                    <br>
+                    
+                    <div class="contactUs">
+
+                        <label for="address">Address:</label><br>
+                        <input type="text" id="address" name="address" value="">
+
+                        <div class="showError"></div>  
+
+                    </div>
+                    
+                    <br>
+                    
+                    <div class="contactUs">   
+
+                        <label for="postalCode">Postal Code:</label><br>
+                        <input type="text" id="postalCode" name="postalCode" value="">
+
+                        <div class="showError"></div>  
+
+                    </div> 
+                   
+                    <br>
+                    
+                    <div class="contactUs">
+
+                        <label for="city">City:</label><br>
+                        <input list="cityNames" id="city" name="city"/>
+
+                        <datalist id="cityNames">
+                                <option value="Toronto">
+                                <option value="Brampton">
+                                <option value="Quebec">
+                                <option value="Montreal">
+                                <option value="Vancouver">
+                        </datalist>
+
+                    </div>
+              
+                    <br>
+                    
+                    <div>
+                        <input type="radio" id="question" name="question" value="">
+                        <label for="question">Question</label><br>
+
+                        <input type="radio" id="comment" name="comment" value="">
+                        <label for="comment">Comment</label><br>
+
+                        <input type="radio" id="orderProblem" name="orderProblem" value="">
+                        <label for="orderProblem">Order Problem</label>
+
+                        <br>  
+
+                        <div class="order-problem hide">   
+                            <label for="problem">Order Problem:</label><br>
+                            <input type="text" id="orderNumber" name="orderNumber" value=""><br><br>
+                            <div class="showError"></div>  
+                        </div> 
+
+                        <textarea rows="4" cols="50" name="userinput" form="userform">Type...</textarea>
+
+                    </div>
+
+                    <input type="hidden" id="myName" name="myName" value="Davinder Verma">
+        
+                    <div class="submitBtn">
+                        <input type="button"  id="submit" value="Submit">
+                    </div>
+                </form>
+        
+            </section>
+        </main>
+
+        <footer style="background-color: black;" >     
+            <div>
+        
+            <div class ="myfoot" >
+
+                <h3>More At Cineplex</h3>
+
+                <a href="">Help Centre</a>
+                <br>
+                <a href="">Careers at Cineplex</a>
+                <br>
+                <a href="">Cineplex Mobile</a>
+                <br>
+                <a href="">Player One Amusement Group</a>
+                <br>
+                <a href="">Cineplex Digital Media</a>
+                <br>
+                <a href="">Advertising Opportunities</a>
+                <br>
+                <a href="">E-Gift Cards</a>
+                <br>
+                <a href="">Cineplex Magazine</a>
+                <br>
+                <a href="">Email Newsletter Sign-Up</a>
+
+            </div>
+            
+            <div class ="myfoot">
+
+                <h3>Corporate Information</h3>
+
+                <a href="">Corporate Sales & Rentals</a>
+                <br>
+                <a href="">Corporate Information</a>
+                <br>
+                <a href="">Press Room</a>
+                <br>
+                <a href="">Investor Relations</a>
+                <br>
+                <a href="">Bulk Certificate Purchases</a>
+              
+            </div>
+
+            <div class ="myfoot">
+
+                <h3>Theatre Information</h3>
+
+                <a href="">Find a Theatre</a>
+                <br>
+                <a href="">Food and Drink</a>
+                <br>
+                <a href="">Book a party</a>
+                <br>
+                <a href="">Stars and Strollers</a>
+                <br>
+                <a href="">Accessibility Policy</a>
+                <br>
+                <a href="">Access 2 Program</a>
+                <br>
+                <a href="">Corporate Meetings & Screenings</a>
+                <br>
+                <a href="">School Events & Screenings</a>
+                <br>
+                <a href="">Guest Code of Conduct</a>
+                
+            </div>
+
+            <div class ="myfoot">
+
+                <h3>Top Movies and Events</h3>
+
+                    <a href="">Private Movie Nights</a>
+                    <br>
+                    <a href="">Freaky</a>
+                    <br>
+                    <a href="">Let Him Go</a>
+                    <br>
+                    <a href="">The Kid Detective</a>
+                    <br>
+                    <a href="">The Climb</a>
+                    <br>
+                    <a href="">Maudie</a>
+                    <br>
+                    <a href="">Guardians Of The Galaxy</a>
+                    <br>
+                    <a href="">Come Play</a>
+                    <br>
+                    <a href="">The Croods: A New Age</a>
+
+            </div>
+   
+        <div style="clear:both;"></div>
+
+        </form>
+
+        <div class="logo">
+
+                <a href="index.html">
+                    <img alt="cineplex" src="../images/cineplex.jpg" height="50">
+                </a>
+            
+        </div>
+
+        </div>
+
+            <div class="privacy">
+                <a href="">TSX:CGX</a>
+                <a href="">Privacy Policy</a>
+                <a href="">Terms of Use</a>
+                <a href="">Health & Safety</a>
+                <!--cineplex logo and all the terms of conditions-->
+            </div>
+
+        </footer>
+        <script src="../js/app.js"></script>
+    </body>
+</html>

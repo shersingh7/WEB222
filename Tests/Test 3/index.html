@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+
+<html>
+
+    <head>
+        <meta charset="utf-8"> <!--This will give instruction to browser to use the trf-8 encoding-->
+    </head>
+
+    <body>
+        <header> <!--Contains the head for the webpage which has all the hyperlinks-->
+            <h1>
+                <a href="index.html">Lusaka <!--This is the huperlink for the Lusaka at the top left side of the webpage -->
+                </a>
+            </h1>
+
+            <div> <!--I have used the div tag for the hyperlinks on the top right side of the webpage for easy formatting -->
+                    <nav>
+                        <ul> <!--Unordered lists for the huperlinks-->
+                            <li><a href="">Project</a></li> <!--I havent used target in anyhyperlink as i didnt found any link on the given webpage that was opening on a new tab-->
+                            <li><a href="ourvision.html">Our Vision</a></li>
+                            <li><a href="ourteam.html">Our Team</a></li>
+                            <li><a href="https://lusaka-demo.squarespace.com/our-team">Blog</a></li>
+                            <li><a href="donate.html">Donate</a></li>
+                        </ul>
+                        
+                    </nav>
+
+            </div>
+
+        </header>
+        
+        <main> <!--This contains the main code for the body of the webpage-->
+            <section> <!--This section contains the main motto and the photo of the teacher. I have used the section tag for differentiating this from the whole webpage for easier modification-->
+                <div>
+                    <h2>Empowering teachers and students for a brighter future.</h2>
+                    <img src="" alt="Image of a teacher"> <!--This should be a background image according to the webapge-->
+                </div>
+            </section>
+
+            <section> <!--This section contains the information on how they support education-->
+                <div>
+                    <h2>Supporting education and innovation.</h2>
+                    <button type="button">Our Vision</button> <!--This button is used for opening another webpage which has lusaka's vision-->
+                </div>
+            </section>
+            
+            <section><!--This section contains has some random paragraphs -->
+                <div>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere fugiat dicta soluta error, libero doloribus dolores voluptate id atque deleniti numquam tenetur, ex excepturi expedita, quos nam voluptatum dolorem? Dolores!
+                    </p>
+
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere fugiat dicta soluta error, libero doloribus dolores voluptate id atque deleniti numquam tenetur, ex excepturi expedita, quos nam voluptatum dolorem? Dolores!
+                    </p>
+
+                </div>
+            </section>
+
+            <section> <!--This section contains information on Materials for learning-->
+                <div>
+                    <h2>Materials for Learning</h2>
+                    <img src="" alt="children studying"><!--This should be a image just beside the information and not a background image according to the webpage-->
+                     <!--alt tag is used for the people who cant see. So this will read the alt tag for those people -->
+                    <p>
+                        Many educational materials in local languages are often out of date. We work with school leaders and publishers to ensure that students have access to current textbooks that are age appropriate and written in their primary language.                  
+                    </p>
+                    <button type="button">Learn More</button> <!--This button is used for opening another webpage of learn more -->
+                </div>
+            </section>
+
+            <section> <!--This section contains information on Continuing education-->
+               <div>
+                    <h2>Continuing Education for Teachers</h2>
+                    <img src="" alt="Teacher with a book in her hands"><!--This should be a image just beside the information and not a background image according to the webpage-->
+                    <p>
+                        We create bespoke continuing education programs to address the needs of teachers and their student communities. From training on the latest technology to new pedagogical methods, we help teachers make their classrooms engaging and successful.       
+                    </p>
+                    <button onclick="document.location='donate.html'">HTML Tutorial</button> <!--This button is used for opening another webpage for learning more about the topic-->
+                </div>
+            </section>
+
+            <section><!--This section contains information on support for communities-->
+                <div>
+                    <h2>Support for Communities</h2>
+                    <p>
+                        Education happens within the context of a larger community. Our approach extends beyond the school to help ensure students have the necessary support to do their best learning.
+                    </p>
+                    <button type="button">Our Vision</button> <!--This button is used for opening another webpage which has lusaka's vision-->
+                </div>
+            </section>
+
+            <section> <!--This section contains the quote-->
+                <div>
+                    <h2>“With the support from Lusaka, we have been able to serve our students better than ever.”</h2>
+                    <p>---Alonzo F., School Principal</p>
+                </div>
+            </section>
+             
+            <img src="" alt="A well dressed teacher teaching on blackboard">
+            <!--This should be a big image on the webpage and can be treated as a section-->
+
+            <section><!--This section contains the contact us forms and some related information-->
+
+                <div>
+                        <h2>Contact</h2>
+                        <p>
+                            Feel free to contact us with any questions.
+                        </p>
+
+                        <h3>Email</h3>
+                        <p>email@example.com</p>
+
+                        <h3>Phone</h3>
+                        <p>(555) 555-5555</p>
+
+                </div>
+
+                <div>
+                    <form>
+                        <legend>Name*</legend>
+                        <label for="fname">First name:</label><br>
+                        <input type="text" id="fname" name="fname" required><br>
+                        <label for="lname">Last name:</label><br>
+                        <input type="text" id="lname" name="lname" required>
+
+                        <label for="email">Email*</label><br>
+                        <input type="text" id="email" name="email" required>
+
+                        <label for="message">Message*</label><br>
+                        <input type="text" id="message" name="message" required>
+
+                        <input type="submit" value="Submit">
+
+                      </form>
+                </div>
+           
+        </main>
+
+        <footer> <!--This footer contains information on the foundation and some links to other pages-->
+            <div>
+                <h2>The Lusaka Foundation</h2>
+                <p>123 Demo Street</p>
+                <br>
+                <p>New York, NY 12345</p>
+            </div>
+
+            <div>
+                <h2>About</h2>
+                <nav>
+                    <ul> <!--Unordered lists for the hyperlinks-->
+                        <li><a href="ourvision.html">Our Vision</a></li>
+                        <li><a href="https://lusaka-demo.squarespace.com/donate" >Donate</a></li>
+                    </ul>
+                </nav>
+            </div>
+
+            <div>
+                <h2>Projects</h2>
+                <nav>
+                    <ul> <!--Unordered lists for the hyperlinks-->
+                        <li><a href="https://lusaka-demo.squarespace.com/materials-for-learning">Materials for Learning</a></li>
+                        <li><a href="https://lusaka-demo.squarespace.com/education-for-teachers">Education for Teachers</a></li>
+                        <li><a href="https://lusaka-demo.squarespace.com/support-for-communities">Support for Communities</a></li>
+                    </ul>
+                </nav>
+            </div>
+                
+        </footer>
+
+    </body>
+</html>
+
+
+<!--I have mostly used sections and div for much easier webpage management. I have used the unordered listings for the hyperlinks.
+I have also used forms for contact us input and has sused the required attribute for the forms which were required for sunmission.
+I have also used img alt attribute for the helping the people with disabilities to easily know the webpage.
+I have used the button tag for the submit button.  -->

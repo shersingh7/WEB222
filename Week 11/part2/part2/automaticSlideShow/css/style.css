@@ -1,0 +1,38 @@
+/*
+    CSS RESET
+*/
+*
+{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+/*GENERAL Styles */
+body
+{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+
+.container 
+{
+    max-width: 1200px;
+    margin: 0 auto;
+    width:90%;
+    text-align: center;
+
+}
+
+img
+{
+    width:100%;
+    max-width: 100%;
+}
+
+.container img
+{
+    height: 450px;
+    object-fit: cover;
+}

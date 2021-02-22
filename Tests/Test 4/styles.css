@@ -1,0 +1,245 @@
+/* Webpage CSS */
+body
+{
+    line-height: 1.7rem;
+    margin: 0%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+html
+{
+    margin: 0%;
+    padding: 0%;
+    background-color: rgb(244, 244, 244);
+}
+
+/* Header & Footer */
+
+header
+{
+    height: auto;
+    background-color: rgb(51, 51, 51);
+}
+
+footer
+{
+    padding: 0.0625rem;
+    position: static;
+    background: rgb(51, 51, 51);
+    text-align: center;
+    color: rgb(244, 244, 244);
+}
+
+a
+{
+    text-decoration: none;
+    color: white;
+    padding-right: 1.875rem;
+}
+
+ul
+{
+    list-style: none;
+    display: flex;
+}
+
+p
+{
+    line-height: 1.7rem;
+    color: white;
+}
+
+
+nav
+{
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo
+{
+    font-size: large;
+    font-weight: bold;
+    align-self: center;
+    margin-left: 0.625rem;
+}
+
+a:hover
+{
+    color: rgb(246, 191, 140);
+}
+
+/*===================================== Home Page ===================================== */
+
+/* Hero Section */
+
+.heroSection
+{
+    position: relative;
+    height: 37.5rem;
+    background: url("images/showcase.jpg");
+}
+
+.hero
+{
+    transform: translate(-50%, -50%);
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    color: white;
+}
+
+.button1
+{
+    padding: 1rem 2rem;
+    color: rgb(244, 244, 244);
+    font-size: 1rem;
+    margin-top: 1rem;
+    border: none;
+    background-color:rgb(51, 51, 51);
+
+}
+
+.button2
+{
+    padding: 1rem 2rem;
+    color: rgb(51, 51, 51);
+    font-size: 1rem;
+    margin-top: 1rem;
+    border: none;
+    background-color:rgb(244, 244, 244);
+    size: 1.5625rem;
+}
+
+/* History Section */
+
+.history
+{
+    display: flex;
+    color: white;
+    background-color:rgb(51, 51, 51);
+    height: 18.75rem;
+
+}
+
+.hotelPhoto
+{
+    flex: 1;
+}
+
+.hotelPhoto img
+{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.historyText
+{
+    display: flex;
+    background-color: rgb(51, 51, 51);
+    flex-direction: column;
+    height: 80%;
+    object-fit: cover;
+    align-items: center;
+    text-align: center;
+    flex: 1;
+    padding: 1rem;
+}
+
+/* Key Points Section */
+
+.row
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+    color: rgb(51, 51, 51);
+    background-color: rgb(244, 244, 244);
+    height: 100%;
+}
+
+.row p, i
+{
+    color: rgb(51, 51, 51);
+    padding: 1rem;
+}
+
+.col-2
+{
+    background:rgb(248, 191, 138);
+}
+
+
+/*===================================== About Page ===================================== */
+
+
+/* Hero Section */
+
+.about
+{
+    display: flex;
+    height: 20rem;
+    padding: 5rem;
+    justify-content: space-around; 
+}
+
+.about p
+{
+    color: rgb(51, 51, 51);
+}
+
+.about img
+{
+    margin-top: 3.125rem;
+    border-radius: 100%;
+    width: 25rem;
+}
+
+/* Review Section */
+
+.review
+{
+    position: relative;
+    background: url("images/test-bg.jpg");
+    height: 60rem;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5rem;
+    color: rgb(244, 244, 244);
+}
+
+.review h1
+{
+    text-align: center;
+}
+
+.review img
+{
+    height: 10rem;
+    margin: 1rem;
+    width: 10rem;
+    border-radius: 100rem;
+}
+
+.review
+{
+    display: flex;
+    flex-direction: column;
+}
+
+.theReview
+{
+    display: flex;
+    background-color: rgb(228, 178, 131);
+    padding: 1rem;
+    margin: 3rem;
+    align-items: center;
+    color: rgb(51, 51, 51);
+}
+
+

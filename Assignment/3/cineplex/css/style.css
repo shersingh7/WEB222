@@ -1,0 +1,312 @@
+html
+{
+    margin: 0;
+    padding: 0;
+}
+
+body
+{
+    line-height: 1.7rem;
+    margin: 0%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.blue
+{
+    color: blue;
+}
+
+header
+{
+    background-color: black;
+    position: sticky;
+    width: 100%;
+}
+
+.white
+{
+    color: white;
+}
+
+a:hover
+{
+    color: blue;
+}
+
+.search
+{
+    text-align: right;
+}
+
+header a
+{
+    padding: 5px;
+    text-decoration: none;
+    color: white;
+}
+
+footer a
+{
+    padding: 5px;
+    text-decoration: none;
+    color: white;
+}
+
+.allMovies a
+{
+    padding: 5px;
+    text-decoration: none;
+    color: black;
+}
+
+.logo
+{
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+.slideShow
+{
+    position: relative;
+    text-align: center;
+}
+
+.prev, .next 
+{
+    position: absolute;
+    top: 90%;
+    margin-left: none;
+    color: black;
+    font-weight: bold;
+    text-align: center;
+    background-color: red;
+}
+
+.prev
+{
+    left: 40%;
+}
+
+.next 
+{
+    left: 60%;
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+
+.slideShow > img
+{
+    height: 500px;
+    width: 800px;
+}
+
+.allMovies
+{
+    float: left;
+    padding: 45px;
+}
+
+.buyTickets
+{
+  width: 25%;
+  padding: 12px;
+  border: 2px solid #ccc;
+  margin: 25px 25px;
+}
+
+.info
+{
+    border-style: solid;
+    float: left;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    position: relative;
+    margin-top: 8rem;
+    left: 30%;
+    margin-right: 7rem;
+    height: 410px;
+    width: 500px;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+.bigInfo
+{
+    margin-top: 12rem;
+    border-style: solid;
+    height: 250px;
+    width: 1000px;
+    padding: 1rem;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    display: flex;  
+}
+
+.myfoot
+{
+    float: left;
+    margin: 25px;
+    padding:50px;
+    color: white;
+}
+
+.privacy
+{
+    float : bottom;
+    text-align: center;
+    margin-bottom: 0;
+    padding-bottom: 0;
+    height: 100%;
+}
+
+.nowPlaying
+{
+    display: grid;
+    float: left;
+    padding: 50px;
+    margin-left: 50px;
+}
+
+.nowPlaying a
+{
+    text-decoration: none;
+    color: orange;
+}
+
+.NPposter
+{
+    margin: 50px 50px;
+    float: left;
+}
+
+.NPposter a
+{
+    text-decoration: none;
+    color: orange;
+}
+
+.movieInfo
+{
+    clear: both;
+    margin-left: 50px;
+}
+
+.modal 
+{
+    display: none; 
+    position: fixed;
+    z-index: 1;
+    padding-top: 100px; 
+    left: 0;
+    top: 0;
+    width: 100%; 
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0,0,0,0.4);
+  }
+  
+.modal-content
+{
+    max-height: calc(100vh - 210px);
+    background-color: white;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid grey;
+    width: 80%;
+    overflow-y: auto;
+}
+  
+.jamesClose, .fordClose 
+{
+    color: darkgray;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+  
+.jamesClose:hover,
+.jamesClose:focus,
+.fordClose:hover,
+.fordClose:focus
+{
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+
+
+/*Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) 
+{ 
+    body
+    {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+    body > img
+    {
+        width: 90%;
+        justify-self: center;
+    }
+
+    .slideShow > img
+    {
+        height: 100px;
+        width: 100px;
+    }
+
+    #MOVIE
+    {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    .movieDetails
+    {
+        margin-left: 50px;
+    }
+
+}
+
+/*Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767.98px) 
+{
+    body
+    {
+        display: grid;
+        grid-template-columns: 2fr;
+    }
+
+    body > img
+    {
+        width: 90%;
+        justify-self: center;
+    }
+
+    .slideShow > img
+    {
+        height: 250px;
+        width: 250px;
+    }
+
+    #MOVIE
+    {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+    .movieDetails
+    {
+        margin-left: 50px;
+    }
+
+}
+
+

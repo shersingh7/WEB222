@@ -1,0 +1,225 @@
+html 
+{
+  margin: 0;
+  padding: 0;
+}
+
+body 
+{
+  line-height: 1.7rem;
+  margin: 0%;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.blue 
+{
+  color: blue;
+}
+
+header 
+{
+  background-color: black;
+  position: sticky;
+  width: 100%;
+}
+
+body 
+{
+  padding: 0;
+  margin: 0;
+}
+
+.white 
+{
+  color: white;
+}
+
+a:hover
+{
+  color: blue;
+}
+
+.search 
+{
+  text-align: right;
+}
+
+header a 
+{
+  padding: 5px;
+  text-decoration: none;
+  color: white;
+}
+
+footer a 
+{
+  padding: 5px;
+  text-decoration: none;
+  color: white;
+}
+
+.buyTickets
+{
+  width: 25%;
+  padding: 12px;
+  border: 2px solid #ccc;
+  margin: 25px 25px;
+}
+
+.allMovies a 
+{
+  padding: 5px;
+  text-decoration: none;
+  color: black;
+}
+
+.logo 
+{
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+.center 
+{
+  text-align: center;
+}
+
+.allMovies 
+{
+  float: left;
+  padding: 45px;
+}
+
+.info 
+{
+  border-style: solid;
+  float: left;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  position: relative;
+  margin-top: 8rem;
+  left: 30%;
+  margin-right: 7rem;
+  height: 410px;
+  width: 500px;
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+
+.bigInfo 
+{
+  margin-top: 12rem;
+  border-style: solid;
+  height: 250px;
+  width: 1000px;
+  padding: 1rem;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  position: relative;
+  top: 50%;
+  left: 50%;
+  display: flex;
+}
+
+.myfoot 
+{
+  float: left;
+  margin: 25px;
+  padding: 50px;
+  color: white;
+}
+
+.privacy 
+{
+  float: bottom;
+  text-align: center;
+  margin-bottom: 0;
+  padding-bottom: 0;
+  height: 100%;
+}
+
+.nowPlaying 
+{
+  position: relative;
+  float: left;
+  padding: 50px;
+  margin-left: 50px;
+}
+
+.nowPlaying a 
+{
+  text-decoration: none;
+  color: orange;
+}
+
+.NPposter
+{
+  margin: 50px 50px;
+  float: left;
+}
+
+.NPposter a 
+{
+  text-decoration: none;
+  color: orange;
+}
+
+.movieInfo 
+{
+  clear: both;
+  margin-left: 50px;
+}
+
+
+input[type=text], select, textarea 
+{
+  width: 95%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  margin-top: 6px;
+}
+  
+input[type=button] 
+{
+  background-color: blue;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+}
+
+input[type=submit]:hover
+{
+  background-color: red;
+}
+
+.showError 
+{
+  color: red;
+  margin-top: none ;
+}
+
+.container 
+{
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+  margin-left: 50px;
+  width: 50%;
+  margin-bottom: 50px;
+}
+
+.hide 
+{
+  display: none;
+}
+
+.error 
+{
+  color: red;
+  font-size: 1rem;
+}
+
